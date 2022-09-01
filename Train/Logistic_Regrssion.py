@@ -13,11 +13,6 @@ import warnings
 import os
 
 
-# >> #### Import modules
-# sys.path.append(os.path.abspath(os.path.join('../scripts')))
-# from abtest-mlops2
-# sys.path.insert(
-#     0, '/home/jedi/Documents/Tenacademy/Week2/abtest_mlops2/scripts')
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../scripts')))
 
 from preprocess import Preprocess
