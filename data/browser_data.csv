@@ -1,0 +1,384 @@
+,index,0,1
+0,0,Android,"                                auction_id experiment        date  hour  \
+2362  4d62bd05-03ae-4c86-bc93-4e5af73e9bb2    control  2020-07-03    15   
+
+            device_make  platform_os  browser  yes  no  
+2362  Samsung GT-P5210             6  Android    0   0  "
+1,1,Chrome,"                                auction_id experiment        date  hour  \
+901   1d5dc3d3-b877-4f97-8c3a-ef7f9bc3af55    control  2020-07-03    15   
+1883  3e311bf5-e957-4879-b9e0-db20f386777d    exposed  2020-07-04    18   
+2531  518e3182-f8f8-4265-a7eb-ec8f085aa52e    exposed  2020-07-05    12   
+
+         device_make  platform_os browser  yes  no  
+901   Huawei Browser            6  Chrome    0   1  
+1883  Huawei Browser            6  Chrome    0   0  
+2531  Huawei Browser            6  Chrome    1   0  "
+2,2,Chrome Mobile,"                                auction_id experiment        date  hour  \
+0     0008ef63-77a7-448b-bd1e-075f42c55e39    exposed  2020-07-10     8   
+1     000eabc5-17ce-4137-8efe-44734d914446    exposed  2020-07-07    10   
+4     001a7785-d3fe-4e11-a344-c8735acacc2c    control  2020-07-03    15   
+6     002e308b-1a07-49d6-8560-0fbcdcd71e4b    control  2020-07-03    15   
+9     004c4cc9-f2ca-4df7-adc9-3d0c3c4f0342    control  2020-07-05    14   
+...                                    ...        ...         ...   ...   
+8069  ffca1153-c182-4f32-9e90-2a6008417497    control  2020-07-10    16   
+8071  ffdfdc09-48c7-4bfb-80f8-ec1eb633602b    exposed  2020-07-03     4   
+8072  ffea24ec-cec1-43fb-b1d1-8f93828c2be2    exposed  2020-07-05     7   
+8073  ffea3210-2c3e-426f-a77d-0aa72e73b20f    control  2020-07-03    15   
+8074  ffeaa0f1-1d72-4ba9-afb4-314b3b00a7c7    control  2020-07-04     9   
+
+             device_make  platform_os        browser  yes  no  
+0     Generic Smartphone            6  Chrome Mobile    0   0  
+1     Generic Smartphone            6  Chrome Mobile    0   0  
+4     Generic Smartphone            6  Chrome Mobile    0   0  
+6     Generic Smartphone            6  Chrome Mobile    0   0  
+9     Generic Smartphone            6  Chrome Mobile    0   0  
+...                  ...          ...            ...  ...  ..  
+8069  Generic Smartphone            6  Chrome Mobile    0   1  
+8071  Generic Smartphone            6  Chrome Mobile    0   1  
+8072  Generic Smartphone            6  Chrome Mobile    0   0  
+8073  Generic Smartphone            6  Chrome Mobile    0   0  
+8074  Generic Smartphone            6  Chrome Mobile    0   0  
+
+[4554 rows x 9 columns]"
+3,3,Chrome Mobile WebView,"                                auction_id experiment        date  hour  \
+2     0016d14a-ae18-4a02-a204-6ba53b52f2ed    exposed  2020-07-05     2   
+8     004940f5-c642-417a-8fd2-c8e5d989f358    exposed  2020-07-04     0   
+11    0051dd9b-03b6-4579-b09a-0107b2a3a13e    control  2020-07-09     6   
+13    006b9c6e-5f5d-4385-a811-ff20a24b30ac    exposed  2020-07-06     8   
+14    0073f9a6-0856-44b4-870d-8e525878ad29    exposed  2020-07-04    15   
+...                                    ...        ...         ...   ...   
+8023  fdd86554-2d39-48d7-9979-15e6ff1a298e    exposed  2020-07-03     8   
+8032  fe4d6606-0124-4297-8c1c-6bc5f0b00dca    exposed  2020-07-10    10   
+8043  fef17bc0-e44d-4351-9df1-268c277544c0    exposed  2020-07-07     8   
+8044  ff07272c-a61c-4e8f-99fc-7159bd2bcab1    control  2020-07-03    15   
+8067  ffc594ef-756c-4d24-a310-0d8eb4e11eb7    exposed  2020-07-05     1   
+
+             device_make  platform_os                browser  yes  no  
+2                  E5823            6  Chrome Mobile WebView    0   1  
+8     Generic Smartphone            6  Chrome Mobile WebView    0   0  
+11      Samsung SM-G935F            6  Chrome Mobile WebView    0   0  
+13      Samsung SM-G973F            6  Chrome Mobile WebView    0   0  
+14      Samsung SM-G960F            6  Chrome Mobile WebView    0   0  
+...                  ...          ...                    ...  ...  ..  
+8023            Pixel 3a            6  Chrome Mobile WebView    0   0  
+8032             Moto $2            6  Chrome Mobile WebView    0   0  
+8043             ATU-L11            6  Chrome Mobile WebView    0   0  
+8044   Samsung SM-A105FN            6  Chrome Mobile WebView    0   0  
+8067    Samsung SM-G950F            6  Chrome Mobile WebView    0   0  
+
+[1489 rows x 9 columns]"
+4,4,Chrome Mobile iOS,"                                auction_id experiment        date  hour  \
+25    00d22463-2d1f-44de-8d67-11d6c6b96a00    exposed  2020-07-03     1   
+145   0467d28b-c734-4ba7-b3aa-718d12097ba1    exposed  2020-07-07    11   
+172   05198ebc-0181-463f-afee-3a1e63dcd894    control  2020-07-09    10   
+246   076c217b-5ee9-4118-9f5c-1fe7d00da5c8    control  2020-07-05    12   
+340   0a64c7d0-5fea-4fc1-aa2c-4b6ac08e2e61    control  2020-07-03    15   
+699   164e1608-0adf-407b-8c08-327f8cebaa01    control  2020-07-08    16   
+729   171faf5a-9fd4-43cd-a9ee-517efa3da1cd    control  2020-07-03    15   
+867   1c340016-b617-48e2-bf20-0d259a5d1c7f    control  2020-07-03    15   
+927   1e333a30-1979-408e-8c4d-979552c0f593    control  2020-07-09    15   
+965   1f745ec2-8438-4d87-a302-01741bc3b55c    exposed  2020-07-04     2   
+1062  2283b808-6ab4-4b4d-accd-b168907465d4    exposed  2020-07-05    18   
+1207  2742656f-565f-40f1-abf7-4b0db32d5052    control  2020-07-03    15   
+1298  2a68f26c-c527-4761-a36b-7340f03a9490    control  2020-07-09    13   
+1345  2c425e9d-b06e-4bc6-83d1-4510770c7082    exposed  2020-07-08    19   
+1357  2c9f7869-8846-4e68-9691-4c0beb46ccbf    exposed  2020-07-03    14   
+1621  35b28614-587a-4623-b335-1b4e1be01b3a    exposed  2020-07-05    18   
+1767  3a981e27-4c04-4e8c-96a3-0df3c12a6365    control  2020-07-06     2   
+2048  4323c5e0-077d-4360-ac04-17d8a4ff314e    control  2020-07-05    21   
+2296  4b514faa-c3fc-4382-aac0-ffefbdc0e27f    control  2020-07-09    23   
+2392  4e257c38-ecbc-4206-a2e0-77f6ccd96f64    exposed  2020-07-04     7   
+2401  4e7cd95b-39c6-4daf-967a-ed6e182e13b6    exposed  2020-07-04     2   
+2413  4eb1365e-0a68-4ef0-9403-c81ca773970a    exposed  2020-07-05     4   
+2499  50b37ed4-b3c1-4e35-81d9-c2890b7bc57f    control  2020-07-08    11   
+2601  53a9bb27-181a-4d0e-bedc-26d06eafcf2c    control  2020-07-06     1   
+3229  6844c38b-7659-43e8-8a9d-2edbdd298925    control  2020-07-03    15   
+3236  6876d026-242d-4d68-be7e-bfcf6b31aef0    control  2020-07-09    17   
+3267  69a25442-f1f6-47df-9f8e-aa712784d92b    control  2020-07-10    14   
+3307  6b0943a9-60e5-444c-ad08-a630d3c64046    control  2020-07-09     3   
+3371  6ceb4c69-a53e-4ac8-b072-8f9b082d61e8    exposed  2020-07-07     6   
+3800  7a6f1b84-ade8-48dc-8e87-16d9fb04aed8    control  2020-07-03    15   
+3916  7e06d970-e71c-49d0-aacd-a8eb26c742ce    exposed  2020-07-10    15   
+4082  830c65ca-d27c-4645-8046-879389a36127    exposed  2020-07-04     6   
+4263  887b6e74-5369-466d-be43-1f961b2f9acd    control  2020-07-10     2   
+4546  90eaf6b8-e48c-40f1-a286-762a9b64ba9a    control  2020-07-03    15   
+4621  936e8bb5-b138-426a-bb2b-ab62d26c5001    exposed  2020-07-03     2   
+4822  99b21980-34a8-4071-b5b4-bd9d6659d783    control  2020-07-05    16   
+4942  9d088418-29bd-4ad8-94a9-d43e18f33bb1    exposed  2020-07-09    13   
+5504  adfc3ef5-2ff6-4d45-afe1-26b0196da6d8    control  2020-07-03    15   
+5595  b16a68f2-bf1a-453d-a0f8-5331adf73270    control  2020-07-03    15   
+6595  d0f9d485-b22c-42da-96f1-e4824fe38be5    control  2020-07-07     5   
+6690  d43ee7ab-cadd-4793-a3cd-da0d6a5e152d    control  2020-07-09    14   
+6769  d70b5402-7afb-427b-8360-b8685c1bbc78    control  2020-07-03    15   
+6804  d80d1e33-be73-44f4-9a41-0766ab80b7af    control  2020-07-03    15   
+6875  da506d76-0501-4276-b5d7-ca703c49c292    control  2020-07-03    15   
+7465  ec4c1cde-1e93-4b47-b5ea-9f31b8cc5295    control  2020-07-04    11   
+7469  ec772878-5543-46e7-b080-a9f43eba757d    control  2020-07-09    10   
+7563  efb81ce2-2ae0-4e33-b582-191fe0f4c57c    exposed  2020-07-08    21   
+7903  fa539da9-ddd0-46aa-8d6d-66281e31270c    control  2020-07-08    14   
+8001  fcfe1945-c63c-4963-aa6f-8bb61592a069    exposed  2020-07-04     6   
+8034  fe6ae1c4-ff79-47c1-9cb5-a8d5e5402745    control  2020-07-03    15   
+8057  ff91d4f2-d28f-4a66-9e5c-bf1c96e32a4c    control  2020-07-04    17   
+
+     device_make  platform_os            browser  yes  no  
+25        iPhone            5  Chrome Mobile iOS    0   0  
+145       iPhone            5  Chrome Mobile iOS    0   0  
+172       iPhone            5  Chrome Mobile iOS    0   0  
+246       iPhone            5  Chrome Mobile iOS    0   0  
+340       iPhone            5  Chrome Mobile iOS    0   0  
+699       iPhone            5  Chrome Mobile iOS    0   0  
+729       iPhone            5  Chrome Mobile iOS    0   0  
+867       iPhone            5  Chrome Mobile iOS    0   0  
+927       iPhone            5  Chrome Mobile iOS    0   0  
+965       iPhone            5  Chrome Mobile iOS    0   0  
+1062      iPhone            5  Chrome Mobile iOS    0   0  
+1207      iPhone            5  Chrome Mobile iOS    0   0  
+1298      iPhone            5  Chrome Mobile iOS    0   0  
+1345      iPhone            5  Chrome Mobile iOS    0   0  
+1357      iPhone            5  Chrome Mobile iOS    0   0  
+1621      iPhone            5  Chrome Mobile iOS    0   0  
+1767      iPhone            5  Chrome Mobile iOS    0   0  
+2048      iPhone            5  Chrome Mobile iOS    0   0  
+2296      iPhone            5  Chrome Mobile iOS    0   0  
+2392      iPhone            5  Chrome Mobile iOS    0   0  
+2401      iPhone            5  Chrome Mobile iOS    0   0  
+2413      iPhone            5  Chrome Mobile iOS    0   0  
+2499      iPhone            5  Chrome Mobile iOS    0   0  
+2601      iPhone            5  Chrome Mobile iOS    0   0  
+3229      iPhone            5  Chrome Mobile iOS    0   0  
+3236      iPhone            5  Chrome Mobile iOS    0   0  
+3267      iPhone            5  Chrome Mobile iOS    0   0  
+3307      iPhone            5  Chrome Mobile iOS    0   0  
+3371      iPhone            5  Chrome Mobile iOS    0   0  
+3800      iPhone            5  Chrome Mobile iOS    0   0  
+3916      iPhone            5  Chrome Mobile iOS    0   0  
+4082      iPhone            5  Chrome Mobile iOS    0   0  
+4263      iPhone            5  Chrome Mobile iOS    0   0  
+4546      iPhone            5  Chrome Mobile iOS    0   0  
+4621      iPhone            5  Chrome Mobile iOS    0   0  
+4822      iPhone            5  Chrome Mobile iOS    0   0  
+4942      iPhone            5  Chrome Mobile iOS    0   0  
+5504      iPhone            5  Chrome Mobile iOS    0   0  
+5595      iPhone            5  Chrome Mobile iOS    0   0  
+6595      iPhone            5  Chrome Mobile iOS    0   0  
+6690      iPhone            5  Chrome Mobile iOS    0   0  
+6769      iPhone            5  Chrome Mobile iOS    0   0  
+6804      iPhone            5  Chrome Mobile iOS    0   0  
+6875      iPhone            5  Chrome Mobile iOS    0   0  
+7465      iPhone            5  Chrome Mobile iOS    1   0  
+7469      iPhone            5  Chrome Mobile iOS    0   0  
+7563      iPhone            5  Chrome Mobile iOS    0   0  
+7903      iPhone            5  Chrome Mobile iOS    0   0  
+8001      iPhone            5  Chrome Mobile iOS    0   0  
+8034      iPhone            5  Chrome Mobile iOS    0   0  
+8057      iPhone            5  Chrome Mobile iOS    0   0  "
+5,5,Edge Mobile,"                                auction_id experiment        date  hour  \
+2332  4c4332e4-25ce-483b-a565-76a76a802ca6    exposed  2020-07-03    13   
+
+     device_make  platform_os      browser  yes  no  
+2332   Lumia 950            7  Edge Mobile    0   0  "
+6,6,Facebook,"                                auction_id experiment        date  hour  \
+3     00187412-2932-4542-a8ef-3633901c98d9    control  2020-07-03    15   
+5     0027ce48-d3c6-4935-bb12-dfb5d5627857    control  2020-07-03    15   
+7     00393fb9-ca32-40c0-bfcb-1bd83f319820    control  2020-07-09     5   
+23    00b6fadb-10bd-49e3-a778-290da82f7a8d    control  2020-07-08     4   
+32    01079dde-1496-486b-982f-dfb4d7fd5678    exposed  2020-07-06    10   
+...                                    ...        ...         ...   ...   
+8028  fe253d7e-7785-4dd9-8462-5d5fa1473ba7    control  2020-07-07    11   
+8036  fe96bef7-8e0f-4e02-8401-f591313b454f    exposed  2020-07-05     5   
+8062  ffae9e1f-1054-406a-9e03-f505782bd3e0    control  2020-07-07    11   
+8070  ffcea781-a6e7-4f98-9d90-f95377270476    control  2020-07-03    15   
+8076  fffbb9ff-568a-41a5-a0c3-6866592f80d8    control  2020-07-10    14   
+
+             device_make  platform_os   browser  yes  no  
+3      Samsung SM-A705FN            6  Facebook    0   0  
+5       Samsung SM-G960F            6  Facebook    0   0  
+7       Samsung SM-G973F            6  Facebook    0   0  
+23      Samsung SM-A202F            6  Facebook    1   0  
+32    Generic Smartphone            6  Facebook    0   0  
+...                  ...          ...       ...  ...  ..  
+8028   Samsung SM-J320FN            6  Facebook    0   0  
+8036   Samsung SM-A320FL            6  Facebook    0   0  
+8062            Pixel 3a            6  Facebook    0   0  
+8070    Samsung SM-N976B            6  Facebook    0   0  
+8076    Samsung SM-G960F            6  Facebook    0   0  
+
+[764 rows x 9 columns]"
+7,7,Firefox Mobile,"                                auction_id experiment        date  hour  \
+5770  b622de08-e2e1-4463-967b-4457c8dd56f2    exposed  2020-07-07     1   
+
+             device_make  platform_os         browser  yes  no  
+5770  Generic Smartphone            6  Firefox Mobile    0   0  "
+8,8,Mobile Safari,"                                auction_id experiment        date  hour  \
+10    004c8a83-1c0f-4a4a-ba9e-bc89e8c0c0c1    control  2020-07-10    13   
+26    00e4f247-b54b-4f95-a000-ec4645d5a692    control  2020-07-03    15   
+51    01b04c3a-8107-4b53-8532-122ff003f900    control  2020-07-04     4   
+91    02fd317b-aa5a-48da-bf2a-c93aafc41c2d    control  2020-07-03    15   
+103   034a8627-9426-4f6a-8c68-83cbf305afaf    control  2020-07-08    19   
+...                                    ...        ...         ...   ...   
+7988  fc8fe0f9-5194-4121-b5a8-84d3d2161877    control  2020-07-05     2   
+7999  fced79ee-6867-470a-bd8b-afc2f0ee5b11    control  2020-07-05    12   
+8009  fd485e19-fb47-4223-8dc2-7bae945c08fa    control  2020-07-08    19   
+8018  fd93b48c-d634-4994-9643-f0f6282ebca7    control  2020-07-04    16   
+8052  ff7534ce-cf85-48fa-b22f-a8797107f15c    exposed  2020-07-09     6   
+
+     device_make  platform_os        browser  yes  no  
+10        iPhone            5  Mobile Safari    0   0  
+26        iPhone            5  Mobile Safari    0   0  
+51        iPhone            5  Mobile Safari    0   0  
+91        iPhone            5  Mobile Safari    0   0  
+103       iPhone            5  Mobile Safari    0   0  
+...          ...          ...            ...  ...  ..  
+7988      iPhone            5  Mobile Safari    0   0  
+7999      iPhone            5  Mobile Safari    0   0  
+8009      iPhone            5  Mobile Safari    0   0  
+8018      iPhone            5  Mobile Safari    0   0  
+8052      iPhone            5  Mobile Safari    0   0  
+
+[337 rows x 9 columns]"
+9,9,Mobile Safari UI/WKWebView,"                                auction_id experiment        date  hour  \
+73    0270f4d1-654e-42e9-afec-76963504ef45    control  2020-07-03    15   
+497   0eecc045-7a76-437b-a3b0-30bf7bace888    control  2020-07-05    16   
+545   10d511fb-67b2-4625-9cf0-eeae88d2abf1    control  2020-07-03    15   
+694   16008805-ad9c-4e57-a246-7e02e56e9abb    control  2020-07-10    13   
+1219  27e4e0f6-0a17-45b2-bf9b-54654543f075    exposed  2020-07-05     7   
+1487  30d9f88a-0170-4562-8e38-d7ad76ffe3db    control  2020-07-10     8   
+1679  37602d77-a1d3-4817-a72e-262c22b18b16    exposed  2020-07-10     1   
+1918  3f285649-de4d-4654-b4f7-bd5fea5b28bb    control  2020-07-09     6   
+2254  49d90f61-c42d-4073-a9a6-d0d67376b8b2    exposed  2020-07-07    12   
+2375  4dc48898-b93d-4296-a64e-2c16df6462a1    control  2020-07-03    15   
+2419  4ec1d740-61fe-4418-a2fa-730deb6487d7    control  2020-07-03    15   
+2631  54a68ad2-eed9-408e-9088-ddecfa64b0fd    control  2020-07-03    15   
+2783  59a26b99-2add-4aa3-bf8c-7845da49f340    exposed  2020-07-05    17   
+3204  67b2d400-2292-414a-bfe7-1fd2c2b9ad0b    exposed  2020-07-06     8   
+3209  67ca01bc-0deb-4665-ad85-bdc9b6eb6d03    control  2020-07-04    16   
+3407  6dec4a8a-85eb-4252-b86a-31d9dd99dce0    exposed  2020-07-03     6   
+3584  73c235e4-7457-4664-97cd-69eef1ad8607    exposed  2020-07-09     8   
+3679  768743b6-05fc-4427-95ec-4b126c51e4ca    control  2020-07-10    14   
+3938  7e9e3338-61c6-4a40-9892-a6213008b6bb    control  2020-07-07    16   
+4032  816ad544-28cf-4704-91a5-8dc9786320bb    exposed  2020-07-09     1   
+4680  954602b7-9ec7-4865-9154-20c46b46b76d    control  2020-07-05    14   
+4692  95924ab5-d1f7-4c73-a38f-fcce7922c57e    control  2020-07-09    17   
+4706  95ecf46d-b3d2-46c3-b3ad-14ce40a9ebc4    control  2020-07-10    14   
+5066  a11f3ec0-dfc1-4798-b6f0-58b183e5ba00    control  2020-07-08    10   
+5603  b18b7b86-f591-4565-a56d-5fddd99b18af    control  2020-07-08    23   
+5709  b43ba2dd-dd6c-4723-a22a-013cfd75e4e5    control  2020-07-09     5   
+5712  b44ef026-b50b-4ad4-a2ab-acd8faa88e8e    control  2020-07-03    15   
+5855  b95abc00-4e1c-4511-a36a-67bff4bb099e    control  2020-07-04    13   
+5927  bbcfb0fb-80a3-4bb1-8c44-ab7e6789ee75    control  2020-07-08    18   
+6143  c322a23d-8c7d-4c58-b2fa-1290e9618efe    control  2020-07-05    19   
+6281  c7c58504-ba6d-4f6b-b04d-f3391af5aca2    exposed  2020-07-08    22   
+6427  cbcf1684-a75f-43df-84e3-31374d3ed361    control  2020-07-08    22   
+6482  cd91bd43-ac2c-4967-be84-51d248835afe    control  2020-07-05    11   
+6579  d08c57d6-7651-43a7-a636-bb30d8388938    control  2020-07-04    17   
+6663  d36efb60-ef36-4bc1-acfb-3188e857bef8    control  2020-07-05     1   
+6687  d420f5b5-6b95-419e-869a-98eb0772ea08    exposed  2020-07-09    19   
+6816  d88a3fa5-d669-4c1d-bed2-b9bd712a6d1f    exposed  2020-07-10     8   
+7034  df79d413-70e2-4b84-8fcf-8d7b413e4300    control  2020-07-03    15   
+7369  e97f336b-488c-42d1-af66-059284f706b9    control  2020-07-09    17   
+7376  e9920214-b8d1-4ac7-9b4a-70fed579320b    exposed  2020-07-08    12   
+7578  f011a0dc-4189-468a-abf5-34d609fa4042    control  2020-07-05    21   
+7628  f17a54b0-8a9a-4a02-b816-085301c8ad98    exposed  2020-07-07    16   
+7710  f4442746-7651-4123-b9a4-81a371424224    exposed  2020-07-09    16   
+7856  f934ff31-f037-4ed2-b19a-ff447aea2ad3    control  2020-07-07    17   
+
+     device_make  platform_os                     browser  yes  no  
+73        iPhone            5  Mobile Safari UI/WKWebView    0   0  
+497       iPhone            5  Mobile Safari UI/WKWebView    0   0  
+545       iPhone            5  Mobile Safari UI/WKWebView    0   0  
+694       iPhone            5  Mobile Safari UI/WKWebView    0   0  
+1219      iPhone            5  Mobile Safari UI/WKWebView    0   0  
+1487      iPhone            5  Mobile Safari UI/WKWebView    0   0  
+1679      iPhone            5  Mobile Safari UI/WKWebView    0   0  
+1918      iPhone            5  Mobile Safari UI/WKWebView    0   0  
+2254      iPhone            5  Mobile Safari UI/WKWebView    0   0  
+2375      iPhone            5  Mobile Safari UI/WKWebView    0   0  
+2419      iPhone            5  Mobile Safari UI/WKWebView    0   0  
+2631      iPhone            5  Mobile Safari UI/WKWebView    0   1  
+2783      iPhone            5  Mobile Safari UI/WKWebView    0   0  
+3204      iPhone            5  Mobile Safari UI/WKWebView    0   0  
+3209      iPhone            5  Mobile Safari UI/WKWebView    0   0  
+3407      iPhone            6  Mobile Safari UI/WKWebView    0   0  
+3584      iPhone            5  Mobile Safari UI/WKWebView    0   0  
+3679      iPhone            5  Mobile Safari UI/WKWebView    0   0  
+3938      iPhone            5  Mobile Safari UI/WKWebView    0   0  
+4032      iPhone            5  Mobile Safari UI/WKWebView    0   0  
+4680      iPhone            5  Mobile Safari UI/WKWebView    0   0  
+4692      iPhone            5  Mobile Safari UI/WKWebView    0   0  
+4706      iPhone            5  Mobile Safari UI/WKWebView    0   1  
+5066      iPhone            5  Mobile Safari UI/WKWebView    0   0  
+5603      iPhone            5  Mobile Safari UI/WKWebView    0   0  
+5709      iPhone            5  Mobile Safari UI/WKWebView    0   0  
+5712      iPhone            5  Mobile Safari UI/WKWebView    0   0  
+5855      iPhone            5  Mobile Safari UI/WKWebView    0   0  
+5927      iPhone            5  Mobile Safari UI/WKWebView    0   0  
+6143      iPhone            5  Mobile Safari UI/WKWebView    0   0  
+6281      iPhone            5  Mobile Safari UI/WKWebView    0   0  
+6427      iPhone            5  Mobile Safari UI/WKWebView    0   0  
+6482      iPhone            5  Mobile Safari UI/WKWebView    0   0  
+6579      iPhone            5  Mobile Safari UI/WKWebView    0   0  
+6663      iPhone            5  Mobile Safari UI/WKWebView    0   0  
+6687      iPhone            5  Mobile Safari UI/WKWebView    0   0  
+6816      iPhone            5  Mobile Safari UI/WKWebView    0   0  
+7034      iPhone            5  Mobile Safari UI/WKWebView    0   0  
+7369      iPhone            5  Mobile Safari UI/WKWebView    0   0  
+7376      iPhone            5  Mobile Safari UI/WKWebView    0   0  
+7578      iPhone            5  Mobile Safari UI/WKWebView    0   0  
+7628      iPhone            6  Mobile Safari UI/WKWebView    0   0  
+7710      iPhone            5  Mobile Safari UI/WKWebView    0   0  
+7856      iPhone            5  Mobile Safari UI/WKWebView    0   1  "
+10,10,Opera Mini,"                                auction_id experiment        date  hour  \
+1864  3dc866c1-7ed1-4721-972d-24d6b7077346    control  2020-07-03    15   
+
+     device_make  platform_os     browser  yes  no  
+1864      iPhone            5  Opera Mini    0   0  "
+11,11,Opera Mobile,"                                auction_id experiment        date  hour  \
+4002  8099b8b8-cddf-4a73-acf7-68b882199ac9    exposed  2020-07-10     6   
+6526  ceb33a18-b491-4b59-8416-4ac9b255f4b2    exposed  2020-07-08    19   
+7449  ebbf0b91-cecc-4e7a-ba6c-471aaa1b339a    exposed  2020-07-04     9   
+
+             device_make  platform_os       browser  yes  no  
+4002  Generic Smartphone            6  Opera Mobile    0   0  
+6526  Generic Smartphone            6  Opera Mobile    0   0  
+7449  Generic Smartphone            6  Opera Mobile    0   0  "
+12,12,Pinterest,"                                auction_id experiment        date  hour  \
+3765  7910b57e-d890-4194-957c-d076e6840b9b    control  2020-07-03    15   
+3873  7cb69e16-8c50-4190-a7d1-9383c5acce0b    control  2020-07-05    13   
+4395  8c26538a-1d38-478b-8e92-59b44e8ce238    exposed  2020-07-09    11   
+
+           device_make  platform_os    browser  yes  no  
+3765  Samsung SM-A105G            6  Pinterest    0   0  
+3873  Samsung SM-G965F            6  Pinterest    0   0  
+4395  Samsung SM-N976V            6  Pinterest    0   0  "
+13,13,Puffin,"                                auction_id experiment        date  hour  \
+5885  ba3ba5ed-d1fb-44bb-9684-bd359f6c711b    control  2020-07-07     2   
+
+             device_make  platform_os browser  yes  no  
+5885  Generic Smartphone            6  Puffin    0   0  "
+14,14,Samsung Internet,"                                auction_id experiment        date  hour  \
+41    01515cfe-7660-410c-80d7-a5e769f75925    control  2020-07-03    15   
+64    023be799-fee7-4ad7-b147-031c31ca6f2c    control  2020-07-07     9   
+69    0257755a-dd92-4a81-91d3-ef6b2cd5bb5a    exposed  2020-07-08    21   
+87    02ee7e7e-1e75-4746-88d2-70bf9ba3a17d    exposed  2020-07-06     9   
+101   0336ce2b-c5cb-454a-b74f-450232223742    control  2020-07-03    15   
+...                                    ...        ...         ...   ...   
+8041  fee6c5b0-4162-4c1c-9a17-54e901bd2549    exposed  2020-07-03    13   
+8054  ff82e341-b72c-4531-b87e-1e11dc35d3fc    exposed  2020-07-10     8   
+8056  ff8f6c01-b6f7-4995-9321-844f9ab23763    control  2020-07-08    18   
+8068  ffc860d9-dece-4e24-92b2-3379fe7dc73d    control  2020-07-10     8   
+8075  ffeeed62-3f7c-4a6e-8ba7-95d303d40969    exposed  2020-07-05    15   
+
+            device_make  platform_os           browser  yes  no  
+41     Samsung SM-A715F            6  Samsung Internet    0   0  
+64     Samsung SM-G930F            6  Samsung Internet    0   0  
+69     Samsung SM-N950F            6  Samsung Internet    0   0  
+87     Samsung SM-G981B            6  Samsung Internet    0   0  
+101   Samsung SM-A105FN            6  Samsung Internet    0   1  
+...                 ...          ...               ...  ...  ..  
+8041   Samsung SM-G935F            6  Samsung Internet    0   0  
+8054   Samsung SM-G973F            6  Samsung Internet    1   0  
+8056   Samsung SM-G950F            6  Samsung Internet    0   0  
+8068   Samsung SM-A520F            6  Samsung Internet    0   0  
+8075   Samsung SM-A515F            6  Samsung Internet    0   0  
+
+[824 rows x 9 columns]"
